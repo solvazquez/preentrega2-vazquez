@@ -1,0 +1,90 @@
+.contenedorItem {
+    text-align: center;
+    margin: 15px;
+    background-color: #e2cba2;
+}
+
+.contenedorItem {
+    display: grid;
+    gap: 10px;
+    align-items: center;
+    grid-template-areas:
+      "main"
+      "side";
+}
+
+.mainItem { 
+    grid-area: main; 
+    text-align: center;
+    border-radius: 20px;
+    background-color: #e2cba2;
+    margin: 10px;
+    padding: 2rem;
+    width: auto;
+    font-family: "ZenAntiqueSoft-Regular";
+    color: black;
+    align-items: center;
+    align-content: center;
+}
+
+.sideItem { 
+    grid-area: side; 
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+@media (min-width: 1000px) {
+    .containerItem {
+        display: grid;
+        grid-template-areas:
+        "main side";    }
+}
+
+.precio{
+    text-align: center;
+    width: 208px;
+    border-radius: 15px;
+    color: black;
+    background-color: #1d345d;
+    font-size: large;
+    transition: all .3s ease-in-out;
+}
+
+.imgAbout{
+    border: solid 15px white;
+    border-radius: 15px;
+    width: 30%;
+    height: auto;
+    margin: 10px;
+}
+
+.nombreLibro{
+    color:#1d345d;
+    font-family: "ZenAntiqueSoft-Regular";
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+.nombreAutor{
+    font-size: 30px;
+    color: white;
+}
+
+.sinopsis{
+    color: black;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.textId{
+    color:white;
+    font-family: "ZenAntiqueSoft-Regular";
+    margin-top: none;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
